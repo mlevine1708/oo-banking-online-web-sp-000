@@ -4,7 +4,7 @@ attr_accessor :BankAccount
 
 attr_reader :name
 
-def initialize
+def initialize(name)
   @BankAccount = BankAccount
   @name = name
   balance = 1000
