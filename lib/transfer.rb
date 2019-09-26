@@ -20,7 +20,7 @@ def execute_transaction
   else
     if @sender.balance < @amount
       @status = "rejected"
-    return "Transaction rejected.  Please check your account balance."
+    return "Transaction rejected. Please check your account balance."
   end
 end
 
